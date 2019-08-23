@@ -1,0 +1,92 @@
+/*
+ ============================================================================
+ Name        : ejercicio2.c
+ Author      : Nicolas
+ Version     :
+ Copyright   : GLB 3
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void)
+{
+	int i;
+	int suma=0;
+	/*int prom=0;
+	int max=0;
+	int min=100;*/
+
+for (i=1;i<=5;i++)
+
+{	int aux;
+	printf("ingrese un numero:");
+	scanf("%d",&aux);
+	suma=suma+aux;
+
+
+}
+
+printf("el numero final es: %d",suma);
+
+
+
+
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+int sumar(int* resultado);
+
+
+int main(void) {
+
+	int resultado;
+	if (sumar(&resultado) == 0)
+	{
+	printf("El resultado es: %d",resultado);
+	}
+	else {
+		printf ("ERROR");
+	}
+	return 0;
+}
+
+int sumar(int* resultado)
+{
+	int numero1;
+	int numero2;
+	printf("El primer numero es:");
+	scanf("%d",&numero1);
+	printf("El segundo numero es:");
+	scanf("%d",&numero2);
+	*resultado=numero1+numero2;
+	return 0;
+}
+
+
+
+*/
+
+
+
+
